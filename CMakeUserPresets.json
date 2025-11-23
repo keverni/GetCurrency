@@ -7,7 +7,7 @@
       "binaryDir": "${sourceDir}/out/build/debug",
       "cacheVariables": {
         "CMAKE_BUILD_TYPE": "Debug",
-        "CMAKE_TOOLCHAIN_FILE": "D:/vcpkg/scripts/buildsystems/vcpkg.cmake"
+        "CMAKE_TOOLCHAIN_FILE": "PATH TO vcpkg.cmake"
       },
       "inherits": [
         "Qt-Default"
@@ -19,7 +19,7 @@
       "binaryDir": "${sourceDir}/out/build/release",
       "cacheVariables": {
         "CMAKE_BUILD_TYPE": "Release",
-        "CMAKE_TOOLCHAIN_FILE": "D:/vcpkg/scripts/buildsystems/vcpkg.cmake"
+        "CMAKE_TOOLCHAIN_FILE": "PATH TO vcpkg.cmake"
       },
       "inherits": [
         "Qt-Default"
